@@ -45,7 +45,8 @@ class MusicLibraryController
   end
   
   def list_artists
-    puts "#{index+1}. #{artist}"
+    Artist.
+      puts "#{index+1}. #{artist}"
   end
   
   def list_genres
