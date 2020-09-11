@@ -57,7 +57,9 @@ class MusicLibraryController
   end
   
   def list_songs_by_artist
-    puts "Please "
+    puts "Please enter the name of a genre:"
+    input = gets.strip
+    
   end
   
   def play_song
